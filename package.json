@@ -1,0 +1,14 @@
+{
+  "name": "bulkitup",
+  "version": "0.0.1",
+  "description": "Cisco StarOS Bulkstat Parser",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gilles Dufour (gdufour@cisco.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "yargs": "^16.0.3"
+  }
+}
