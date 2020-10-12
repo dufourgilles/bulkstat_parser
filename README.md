@@ -28,7 +28,10 @@ Missing required arguments: key, configfile, bulks
 ```
 
 ```bash
-export NODE_OPTIONS="--max-old-space-size=8192"; node src/index.js -c /config.txt -b "bulkstat20200525100000.txt,bulkstat20200525101501.txt,bulkstat20200525104501.txt" -k "%tai-epsattach-attempted%"
+export NODE_OPTIONS="--max-old-space-size=8192"; \
+node src/index.js -c /config.txt \
+-b "bulkstat20200525100000.txt,bulkstat20200525101501.txt,bulkstat20200525104501.txt" \
+-k "%tai-epsattach-attempted%"
 ========= TAIsch2/TAI-XX-XXX-41336 ============
 %tai-ps-qci-1-paging-init-events-attempted%:      0000004521 0000004529 0000004536 0000004549
 %tai-epsattach-attempted%:                        0000010756 0000010764 0000010771 0000010784
