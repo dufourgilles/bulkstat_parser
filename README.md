@@ -13,8 +13,22 @@ It might be possible that you see collision of names. In this case, please repor
 
 ## Installation
 
+Get the package using git
+
 ```bash
-npm install bulkstat-parser
+git clone git@github.com:dufourgilles/bulkstat_parser.git
+```
+
+Inside the git directory, install NPM packages.
+
+```bash
+npm install
+```
+
+Build the tool
+
+```bash
+npm run build
 ```
 
 ## Usage
